@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
     private ScanCallback callbackDelEscaneo = null;
 
     private int contadorAndroid = 0;
-    private int numeroDeTipoMedidaAndroid = 0;
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
@@ -93,13 +92,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(ETIQUETA_LOG, " ****************************************************");
         Log.d(ETIQUETA_LOG, " nombre = " + bluetoothDevice.getName());
         Log.d(ETIQUETA_LOG, " toString = " + bluetoothDevice.toString());
-
-        /*
-        ParcelUuid[] puuids = bluetoothDevice.getUuids();
-        if ( puuids.length >= 1 ) {
-            //Log.d(ETIQUETA_LOG, " uuid = " + puuids[0].getUuid());
-           // Log.d(ETIQUETA_LOG, " uuid = " + puuids[0].toString());
-        }*/
 
         Log.d(ETIQUETA_LOG, " dirección = " + bluetoothDevice.getAddress());
         Log.d(ETIQUETA_LOG, " rssi = " + rssi );
@@ -197,6 +189,7 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
     private void detenerBusquedaDispositivosBTLE() {
 
         if ( this.callbackDelEscaneo == null ) {
@@ -214,43 +207,21 @@ public class MainActivity extends AppCompatActivity {
         byte[] bytes = resultado.getScanRecord().getBytes();
         TramaIBeacon tib = new TramaIBeacon(bytes);
 
-        //esta es la mejor amnera que logré separar el el tipo de medicion con el contador.
+        //esta es la mejor manera que logré separar el tipo de medicion con el contador.
         byte[] major = tib.getMajor();
         int tipoMedicion = major[0] & 0xFF ;
         int contadorArduino = major[1] & 0xFF;
 
         int valorMedicion = Utilidades.bytesToInt(tib.getMinor());
 
-        //tiene que ser dos porque se esperan 2 tipos de medida que son gas y temperatura
-        //tambien puedo crear una variable para este numero en especifico, pero se queda asi por ser el sprint 0
-
-        if ( this.numeroDeTipoMedidaAndroid == 2 ) {
-            Log.d(ETIQUETA_LOG, "Se enviaron todas las medidas");
-            return;
-        } else if ( contadorArduino == this.contadorAndroid ) {
+        if ( contadorArduino == this.contadorAndroid ) {
             Log.d(ETIQUETA_LOG, "Se repitio el contador no se envia este becon");
             return;
-        } else {
-
-            /*  En el momemento que el contador sea diferente, es decir, un nuevo beacon con datos diferente
-                resetamos el numero de tipo de medicion a 0 para los casos de que:
-
-                (1) En caso de que sea una nueva medicion
-                (2) En caso de que no se obtenga alguna medicion, o solo se obtenga una
-
-                 Asi me aseguro de que no ocurra ningun fallo*/
-
-            this.numeroDeTipoMedidaAndroid = 0;
         }
 
         this.contadorAndroid = contadorArduino;
-        this.numeroDeTipoMedidaAndroid = this.numeroDeTipoMedidaAndroid + 1;
-
-        Log.d("CACA", "SE ENVIA EXISTOSAMENTE LA TRAMA DE: " + tipoMedicion);
-        Log.d("CACA", "CON CONTADOR: " + contadorArduino);
 
         Logica logica = new Logica(tipoMedicion, valorMedicion);
-
         logica.guardarMedcion();
     }
 
@@ -383,5 +354,3 @@ public class MainActivity extends AppCompatActivity {
 // --------------------------------------------------------------
 // --------------------------------------------------------------
 // --------------------------------------------------------------
-
-
