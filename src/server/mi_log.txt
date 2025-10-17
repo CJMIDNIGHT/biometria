@@ -1,0 +1,976 @@
+
+[LOG] 2025-10-17T02:39:13.713Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:39:13.714Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:39:13.733Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T02:39:13.736Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T02:39:13.737Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T02:39:13.739Z - 
+ ============================================
+[LOG] 2025-10-17T02:39:13.739Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T02:39:13.739Z - ============================================
+[LOG] 2025-10-17T02:39:13.739Z -  Puerto: 3000
+[LOG] 2025-10-17T02:39:13.739Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T02:39:13.740Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T02:39:13.740Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T02:39:13.740Z -    POST /api/medicion
+[LOG] 2025-10-17T02:39:13.740Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T02:39:13.740Z -    GET  /api/medicion
+[LOG] 2025-10-17T02:39:13.740Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T02:39:13.740Z - ============================================
+[LOG] 2025-10-17T02:39:13.740Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T02:39:13.765Z - [2025-10-17T02:39:13.764Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:13.765Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:13.767Z - [2025-10-17T02:39:13.767Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:13.767Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:13.974Z - [2025-10-17T02:39:13.974Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:13.974Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.151Z - [2025-10-17T02:39:14.151Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.151Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.348Z - [2025-10-17T02:39:14.348Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.348Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.517Z - [2025-10-17T02:39:14.517Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.517Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.680Z - [2025-10-17T02:39:14.679Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.680Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.832Z - [2025-10-17T02:39:14.831Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.832Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:14.999Z - [2025-10-17T02:39:14.999Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:14.999Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:43.290Z - [2025-10-17T02:39:43.290Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:43.290Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:43.905Z - [2025-10-17T02:39:43.905Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:43.905Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:44.178Z - [2025-10-17T02:39:44.178Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:44.178Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:39:44.351Z - [2025-10-17T02:39:44.351Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:39:44.351Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:39.118Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:41:39.119Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:41:39.137Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T02:41:39.143Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T02:41:39.143Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T02:41:39.146Z - 
+ ============================================
+[LOG] 2025-10-17T02:41:39.146Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T02:41:39.146Z - ============================================
+[LOG] 2025-10-17T02:41:39.146Z -  Puerto: 3000
+[LOG] 2025-10-17T02:41:39.146Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T02:41:39.146Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T02:41:39.146Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T02:41:39.146Z -    POST /api/medicion
+[LOG] 2025-10-17T02:41:39.146Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T02:41:39.146Z -    GET  /api/medicion
+[LOG] 2025-10-17T02:41:39.146Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T02:41:39.146Z - ============================================
+[LOG] 2025-10-17T02:41:39.146Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T02:41:39.163Z - [2025-10-17T02:41:39.163Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:39.164Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:39.164Z - pasamso el query
+[LOG] 2025-10-17T02:41:39.166Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:41:39.274Z - [2025-10-17T02:41:39.274Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:39.274Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:39.274Z - pasamso el query
+[LOG] 2025-10-17T02:41:39.275Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:41:39.788Z - [2025-10-17T02:41:39.787Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:39.788Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:39.788Z - pasamso el query
+[LOG] 2025-10-17T02:41:39.788Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:41:40.277Z - [2025-10-17T02:41:40.277Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:40.278Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:40.278Z - pasamso el query
+[LOG] 2025-10-17T02:41:40.278Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:41:40.743Z - [2025-10-17T02:41:40.743Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:40.743Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:40.743Z - pasamso el query
+[LOG] 2025-10-17T02:41:40.744Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:41:41.180Z - [2025-10-17T02:41:41.180Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:41:41.180Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:41:41.180Z - pasamso el query
+[LOG] 2025-10-17T02:41:41.180Z - pasamso el ejecutar query
+[LOG] 2025-10-17T02:43:51.998Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:43:51.999Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:43:52.027Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T02:43:52.033Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T02:43:52.034Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T02:43:52.037Z - 
+ ============================================
+[LOG] 2025-10-17T02:43:52.037Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T02:43:52.037Z - ============================================
+[LOG] 2025-10-17T02:43:52.037Z -  Puerto: 3000
+[LOG] 2025-10-17T02:43:52.037Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T02:43:52.037Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T02:43:52.037Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T02:43:52.037Z -    POST /api/medicion
+[LOG] 2025-10-17T02:43:52.037Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T02:43:52.037Z -    GET  /api/medicion
+[LOG] 2025-10-17T02:43:52.037Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T02:43:52.037Z - ============================================
+[LOG] 2025-10-17T02:43:52.037Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T02:43:52.058Z - [2025-10-17T02:43:52.058Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:43:52.058Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:43:52.059Z - pasamso el query
+[LOG] 2025-10-17T02:43:52.060Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:43:52.117Z - [2025-10-17T02:43:52.117Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:43:52.118Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:43:52.118Z - pasamso el query
+[LOG] 2025-10-17T02:43:52.118Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.043Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:45:41.044Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T02:45:41.067Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T02:45:41.074Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T02:45:41.074Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T02:45:41.077Z - 
+ ============================================
+[LOG] 2025-10-17T02:45:41.077Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T02:45:41.077Z - ============================================
+[LOG] 2025-10-17T02:45:41.077Z -  Puerto: 3000
+[LOG] 2025-10-17T02:45:41.078Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T02:45:41.078Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T02:45:41.078Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T02:45:41.078Z -    POST /api/medicion
+[LOG] 2025-10-17T02:45:41.078Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T02:45:41.078Z -    GET  /api/medicion
+[LOG] 2025-10-17T02:45:41.078Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T02:45:41.078Z - ============================================
+[LOG] 2025-10-17T02:45:41.078Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T02:45:41.095Z - [2025-10-17T02:45:41.095Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.095Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.095Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.097Z - [2025-10-17T02:45:41.097Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.097Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.097Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.098Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.098Z - 
+[LOG] 2025-10-17T02:45:41.098Z - 
+[LOG] 2025-10-17T02:45:41.098Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.102Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.102Z - 
+[LOG] 2025-10-17T02:45:41.102Z - 
+[LOG] 2025-10-17T02:45:41.102Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.205Z - [2025-10-17T02:45:41.205Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.205Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.205Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.206Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.206Z - 
+[LOG] 2025-10-17T02:45:41.206Z - 
+[LOG] 2025-10-17T02:45:41.206Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.378Z - [2025-10-17T02:45:41.378Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.378Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.378Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.379Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.379Z - 
+[LOG] 2025-10-17T02:45:41.379Z - 
+[LOG] 2025-10-17T02:45:41.379Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.535Z - [2025-10-17T02:45:41.535Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.536Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.536Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.536Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.537Z - 
+[LOG] 2025-10-17T02:45:41.537Z - 
+[LOG] 2025-10-17T02:45:41.537Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.714Z - [2025-10-17T02:45:41.714Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.714Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.714Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.715Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.715Z - 
+[LOG] 2025-10-17T02:45:41.715Z - 
+[LOG] 2025-10-17T02:45:41.715Z - no hay nada wey
+[LOG] 2025-10-17T02:45:41.871Z - [2025-10-17T02:45:41.871Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:41.871Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:41.871Z - pasamso el query
+[LOG] 2025-10-17T02:45:41.872Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:41.872Z - 
+[LOG] 2025-10-17T02:45:41.872Z - 
+[LOG] 2025-10-17T02:45:41.872Z - no hay nada wey
+[LOG] 2025-10-17T02:45:42.026Z - [2025-10-17T02:45:42.026Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:42.027Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:42.027Z - pasamso el query
+[LOG] 2025-10-17T02:45:42.028Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:42.028Z - 
+[LOG] 2025-10-17T02:45:42.028Z - 
+[LOG] 2025-10-17T02:45:42.028Z - no hay nada wey
+[LOG] 2025-10-17T02:45:42.228Z - [2025-10-17T02:45:42.228Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:42.228Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:42.228Z - pasamso el query
+[LOG] 2025-10-17T02:45:42.229Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:42.229Z - 
+[LOG] 2025-10-17T02:45:42.229Z - 
+[LOG] 2025-10-17T02:45:42.229Z - no hay nada wey
+[LOG] 2025-10-17T02:45:42.392Z - [2025-10-17T02:45:42.392Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:45:42.392Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:45:42.392Z - pasamso el query
+[LOG] 2025-10-17T02:45:42.393Z - pasamso el ejecutar query, esta es la medicion 
+[LOG] 2025-10-17T02:45:42.393Z - 
+[LOG] 2025-10-17T02:45:42.394Z - 
+[LOG] 2025-10-17T02:45:42.394Z - no hay nada wey
+[LOG] 2025-10-17T02:46:26.438Z - [2025-10-17T02:46:26.438Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:46:26.438Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:46:26.438Z - pasamso el query
+[LOG] 2025-10-17T02:46:26.439Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:46:26.440Z - [object Object]
+[LOG] 2025-10-17T02:46:26.440Z - [object Object]
+[LOG] 2025-10-17T02:49:17.457Z - [2025-10-17T02:49:17.457Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:49:17.457Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:49:17.457Z - pasamso el query
+[LOG] 2025-10-17T02:49:17.458Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:49:17.458Z - [object Object]
+[LOG] 2025-10-17T02:49:17.459Z - [object Object]
+[LOG] 2025-10-17T02:49:20.811Z - [2025-10-17T02:49:20.811Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:49:20.811Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:49:20.812Z - pasamso el query
+[LOG] 2025-10-17T02:49:20.812Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:49:20.812Z - [object Object]
+[LOG] 2025-10-17T02:49:20.813Z - [object Object]
+[LOG] 2025-10-17T02:49:27.567Z - [2025-10-17T02:49:27.567Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:49:27.567Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:49:27.567Z - pasamso el query
+[LOG] 2025-10-17T02:49:27.568Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:49:27.569Z - [object Object]
+[LOG] 2025-10-17T02:49:27.569Z - [object Object]
+[LOG] 2025-10-17T02:49:28.507Z - [2025-10-17T02:49:28.507Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:49:28.507Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:49:28.507Z - pasamso el query
+[LOG] 2025-10-17T02:49:28.508Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:49:28.508Z - [object Object]
+[LOG] 2025-10-17T02:49:28.508Z - [object Object]
+[LOG] 2025-10-17T02:49:29.313Z - [2025-10-17T02:49:29.313Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:49:29.313Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:49:29.313Z - pasamso el query
+[LOG] 2025-10-17T02:49:29.314Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:49:29.314Z - [object Object]
+[LOG] 2025-10-17T02:49:29.314Z - [object Object]
+[LOG] 2025-10-17T02:51:19.745Z - [2025-10-17T02:51:19.745Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T02:51:19.745Z - Consultando ultima medcion
+[LOG] 2025-10-17T02:51:19.745Z - pasamso el query
+[LOG] 2025-10-17T02:51:19.746Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T02:51:19.746Z - [object Object]
+[LOG] 2025-10-17T02:51:19.746Z - [object Object]
+[LOG] 2025-10-17T05:27:41.555Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T05:27:41.557Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T05:27:41.616Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T05:27:41.621Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T05:27:41.622Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T05:27:41.625Z - 
+ ============================================
+[LOG] 2025-10-17T05:27:41.625Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T05:27:41.625Z - ============================================
+[LOG] 2025-10-17T05:27:41.625Z -  Puerto: 3000
+[LOG] 2025-10-17T05:27:41.625Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T05:27:41.626Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T05:27:41.626Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T05:27:41.626Z -    POST /api/medicion
+[LOG] 2025-10-17T05:27:41.626Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T05:27:41.626Z -    GET  /api/medicion
+[LOG] 2025-10-17T05:27:41.626Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T05:27:41.626Z - ============================================
+[LOG] 2025-10-17T05:27:41.626Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T05:27:41.648Z - [2025-10-17T05:27:41.647Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T05:27:41.648Z - Consultando ultima medcion
+[LOG] 2025-10-17T05:27:41.648Z - pasamso el query
+[LOG] 2025-10-17T05:27:41.653Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T05:27:41.653Z - [object Object]
+[LOG] 2025-10-17T05:27:41.653Z - [object Object]
+[LOG] 2025-10-17T06:41:20.836Z - [2025-10-17T06:41:20.836Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:41:20.836Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:41:20.836Z - pasamso el query
+[LOG] 2025-10-17T06:41:20.839Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:41:20.840Z - [object Object]
+[LOG] 2025-10-17T06:41:20.840Z - [object Object]
+[LOG] 2025-10-17T06:41:33.631Z - [2025-10-17T06:41:33.631Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:41:33.631Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:41:33.631Z - pasamso el query
+[LOG] 2025-10-17T06:41:33.632Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:41:33.633Z - [object Object]
+[LOG] 2025-10-17T06:41:33.633Z - [object Object]
+[LOG] 2025-10-17T06:42:05.535Z - [2025-10-17T06:42:05.535Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:42:05.535Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:42:05.535Z - pasamso el query
+[LOG] 2025-10-17T06:42:05.536Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:42:05.536Z - [object Object]
+[LOG] 2025-10-17T06:42:05.536Z - [object Object]
+[LOG] 2025-10-17T06:43:03.398Z - [2025-10-17T06:43:03.398Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:43:03.398Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:43:03.398Z - pasamso el query
+[LOG] 2025-10-17T06:43:03.399Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:43:03.399Z - [object Object]
+[LOG] 2025-10-17T06:43:03.399Z - [object Object]
+[LOG] 2025-10-17T06:53:25.897Z - [2025-10-17T06:53:25.897Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:25.897Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:25.897Z - pasamso el query
+[LOG] 2025-10-17T06:53:25.898Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:25.898Z - [object Object]
+[LOG] 2025-10-17T06:53:25.898Z - [object Object]
+[LOG] 2025-10-17T06:53:28.500Z - [2025-10-17T06:53:28.500Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:28.501Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:28.501Z - pasamso el query
+[LOG] 2025-10-17T06:53:28.502Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:28.502Z - [object Object]
+[LOG] 2025-10-17T06:53:28.502Z - [object Object]
+[LOG] 2025-10-17T06:53:30.158Z - [2025-10-17T06:53:30.158Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:30.158Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:30.158Z - pasamso el query
+[LOG] 2025-10-17T06:53:30.160Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:30.160Z - [object Object]
+[LOG] 2025-10-17T06:53:30.160Z - [object Object]
+[LOG] 2025-10-17T06:53:30.727Z - [2025-10-17T06:53:30.727Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:30.727Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:30.727Z - pasamso el query
+[LOG] 2025-10-17T06:53:30.729Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:30.729Z - [object Object]
+[LOG] 2025-10-17T06:53:30.729Z - [object Object]
+[LOG] 2025-10-17T06:53:30.993Z - [2025-10-17T06:53:30.992Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:30.993Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:30.993Z - pasamso el query
+[LOG] 2025-10-17T06:53:30.994Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:30.994Z - [object Object]
+[LOG] 2025-10-17T06:53:30.994Z - [object Object]
+[LOG] 2025-10-17T06:53:31.150Z - [2025-10-17T06:53:31.150Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:31.150Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:31.150Z - pasamso el query
+[LOG] 2025-10-17T06:53:31.151Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:31.151Z - [object Object]
+[LOG] 2025-10-17T06:53:31.151Z - [object Object]
+[LOG] 2025-10-17T06:53:31.355Z - [2025-10-17T06:53:31.355Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:31.355Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:31.355Z - pasamso el query
+[LOG] 2025-10-17T06:53:31.356Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:31.356Z - [object Object]
+[LOG] 2025-10-17T06:53:31.356Z - [object Object]
+[LOG] 2025-10-17T06:53:31.530Z - [2025-10-17T06:53:31.530Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:53:31.530Z - Consultando ultima medcion
+[LOG] 2025-10-17T06:53:31.530Z - pasamso el query
+[LOG] 2025-10-17T06:53:31.531Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T06:53:31.531Z - [object Object]
+[LOG] 2025-10-17T06:53:31.531Z - [object Object]
+[LOG] 2025-10-17T06:56:04.706Z - [2025-10-17T06:56:04.706Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:56:34.577Z - [2025-10-17T06:56:34.577Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T06:56:34.577Z - Datos recibidos del Android: {"tipo":"gas","valor":321}
+[LOG] 2025-10-17T06:56:34.577Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T06:56:34.580Z - Medición guardada exitosamente - ID: 3
+[LOG] 2025-10-17T07:00:05.018Z - [2025-10-17T07:00:05.018Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:00:05.018Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:00:05.018Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:00:05.020Z - Medición guardada exitosamente - ID: 4
+[LOG] 2025-10-17T07:00:24.615Z - [2025-10-17T07:00:24.615Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:00:24.615Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:00:24.615Z - pasamso el query
+[LOG] 2025-10-17T07:00:24.616Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:00:24.616Z - [object Object]
+[LOG] 2025-10-17T07:00:24.616Z - [object Object]
+[LOG] 2025-10-17T07:00:34.805Z - [2025-10-17T07:00:34.805Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:00:34.805Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:00:34.805Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:00:34.806Z - Medición guardada exitosamente - ID: 5
+[LOG] 2025-10-17T07:01:06.084Z - [2025-10-17T07:01:06.084Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:01:06.084Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:01:06.084Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:01:06.086Z - Medición guardada exitosamente - ID: 6
+[LOG] 2025-10-17T07:01:16.805Z - [2025-10-17T07:01:16.805Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:01:16.805Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:01:16.805Z - pasamso el query
+[LOG] 2025-10-17T07:01:16.807Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:01:16.807Z - [object Object]
+[LOG] 2025-10-17T07:01:16.807Z - [object Object]
+[LOG] 2025-10-17T07:01:18.144Z - [2025-10-17T07:01:18.144Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:01:18.144Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:01:18.144Z - pasamso el query
+[LOG] 2025-10-17T07:01:18.145Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:01:18.145Z - [object Object]
+[LOG] 2025-10-17T07:01:18.145Z - [object Object]
+[LOG] 2025-10-17T07:02:16.680Z - [2025-10-17T07:02:16.680Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:02:16.681Z - Datos recibidos del Android: {"tipo":"gas","valor":321}
+[LOG] 2025-10-17T07:02:16.681Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:02:16.682Z - Medición guardada exitosamente - ID: 7
+[LOG] 2025-10-17T07:02:18.968Z - [2025-10-17T07:02:18.968Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:02:18.968Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:02:18.968Z - pasamso el query
+[LOG] 2025-10-17T07:02:18.969Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:02:18.969Z - [object Object]
+[LOG] 2025-10-17T07:02:18.969Z - [object Object]
+[LOG] 2025-10-17T07:04:12.423Z - [2025-10-17T07:04:12.423Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:12.423Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:12.423Z - pasamso el query
+[LOG] 2025-10-17T07:04:12.424Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:12.424Z - [object Object]
+[LOG] 2025-10-17T07:04:12.424Z - [object Object]
+[LOG] 2025-10-17T07:04:13.288Z - [2025-10-17T07:04:13.288Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:13.288Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:13.288Z - pasamso el query
+[LOG] 2025-10-17T07:04:13.289Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:13.289Z - [object Object]
+[LOG] 2025-10-17T07:04:13.289Z - [object Object]
+[LOG] 2025-10-17T07:04:13.673Z - [2025-10-17T07:04:13.673Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:13.673Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:13.673Z - pasamso el query
+[LOG] 2025-10-17T07:04:13.674Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:13.674Z - [object Object]
+[LOG] 2025-10-17T07:04:13.674Z - [object Object]
+[LOG] 2025-10-17T07:04:14.174Z - [2025-10-17T07:04:14.174Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:14.174Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:14.174Z - pasamso el query
+[LOG] 2025-10-17T07:04:14.175Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:14.176Z - [object Object]
+[LOG] 2025-10-17T07:04:14.176Z - [object Object]
+[LOG] 2025-10-17T07:04:14.500Z - [2025-10-17T07:04:14.500Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:14.500Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:14.500Z - pasamso el query
+[LOG] 2025-10-17T07:04:14.501Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:14.501Z - [object Object]
+[LOG] 2025-10-17T07:04:14.501Z - [object Object]
+[LOG] 2025-10-17T07:04:14.683Z - [2025-10-17T07:04:14.683Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:14.684Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:14.684Z - pasamso el query
+[LOG] 2025-10-17T07:04:14.685Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:14.685Z - [object Object]
+[LOG] 2025-10-17T07:04:14.685Z - [object Object]
+[LOG] 2025-10-17T07:04:14.868Z - [2025-10-17T07:04:14.868Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:14.868Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:14.868Z - pasamso el query
+[LOG] 2025-10-17T07:04:14.869Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:14.869Z - [object Object]
+[LOG] 2025-10-17T07:04:14.869Z - [object Object]
+[LOG] 2025-10-17T07:04:15.026Z - [2025-10-17T07:04:15.026Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:15.026Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:15.026Z - pasamso el query
+[LOG] 2025-10-17T07:04:15.027Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:15.027Z - [object Object]
+[LOG] 2025-10-17T07:04:15.027Z - [object Object]
+[LOG] 2025-10-17T07:04:15.176Z - [2025-10-17T07:04:15.176Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:15.176Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:15.176Z - pasamso el query
+[LOG] 2025-10-17T07:04:15.177Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:15.177Z - [object Object]
+[LOG] 2025-10-17T07:04:15.177Z - [object Object]
+[LOG] 2025-10-17T07:04:15.319Z - [2025-10-17T07:04:15.319Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:15.320Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:15.320Z - pasamso el query
+[LOG] 2025-10-17T07:04:15.321Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:15.321Z - [object Object]
+[LOG] 2025-10-17T07:04:15.321Z - [object Object]
+[LOG] 2025-10-17T07:04:15.483Z - [2025-10-17T07:04:15.483Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:15.484Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:15.484Z - pasamso el query
+[LOG] 2025-10-17T07:04:15.484Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:15.484Z - [object Object]
+[LOG] 2025-10-17T07:04:15.485Z - [object Object]
+[LOG] 2025-10-17T07:04:27.056Z - [2025-10-17T07:04:27.056Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:27.056Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:27.056Z - pasamso el query
+[LOG] 2025-10-17T07:04:27.057Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:27.057Z - [object Object]
+[LOG] 2025-10-17T07:04:27.057Z - [object Object]
+[LOG] 2025-10-17T07:04:28.140Z - [2025-10-17T07:04:28.140Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:28.140Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:28.140Z - pasamso el query
+[LOG] 2025-10-17T07:04:28.141Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:28.141Z - [object Object]
+[LOG] 2025-10-17T07:04:28.141Z - [object Object]
+[LOG] 2025-10-17T07:04:28.711Z - [2025-10-17T07:04:28.711Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:28.711Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:28.711Z - pasamso el query
+[LOG] 2025-10-17T07:04:28.712Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:28.712Z - [object Object]
+[LOG] 2025-10-17T07:04:28.712Z - [object Object]
+[LOG] 2025-10-17T07:04:28.904Z - [2025-10-17T07:04:28.904Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:28.904Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:28.904Z - pasamso el query
+[LOG] 2025-10-17T07:04:28.905Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:28.905Z - [object Object]
+[LOG] 2025-10-17T07:04:28.905Z - [object Object]
+[LOG] 2025-10-17T07:04:29.097Z - [2025-10-17T07:04:29.097Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:29.097Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:29.097Z - pasamso el query
+[LOG] 2025-10-17T07:04:29.098Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:29.098Z - [object Object]
+[LOG] 2025-10-17T07:04:29.098Z - [object Object]
+[LOG] 2025-10-17T07:04:30.451Z - [2025-10-17T07:04:30.451Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:30.451Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:30.451Z - pasamso el query
+[LOG] 2025-10-17T07:04:30.452Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:30.452Z - [object Object]
+[LOG] 2025-10-17T07:04:30.452Z - [object Object]
+[LOG] 2025-10-17T07:04:31.658Z - [2025-10-17T07:04:31.658Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:31.658Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:31.658Z - pasamso el query
+[LOG] 2025-10-17T07:04:31.659Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:31.659Z - [object Object]
+[LOG] 2025-10-17T07:04:31.659Z - [object Object]
+[LOG] 2025-10-17T07:04:32.915Z - [2025-10-17T07:04:32.915Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:04:32.915Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:04:32.915Z - pasamso el query
+[LOG] 2025-10-17T07:04:32.916Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:04:32.916Z - [object Object]
+[LOG] 2025-10-17T07:04:32.916Z - [object Object]
+[LOG] 2025-10-17T07:05:25.205Z - [2025-10-17T07:05:25.205Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:05:25.205Z - Datos recibidos del Android: {"tipo":"gas","valor":321}
+[LOG] 2025-10-17T07:05:25.205Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:05:25.206Z - Medición guardada exitosamente - ID: 8
+[LOG] 2025-10-17T07:05:35.053Z - [2025-10-17T07:05:35.053Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:05:35.053Z - Datos recibidos del Android: {"tipo":"temp","valor":31}
+[LOG] 2025-10-17T07:05:46.347Z - [2025-10-17T07:05:46.347Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:05:46.347Z - Datos recibidos del Android: {"tipo":"temperatura","valor":31}
+[LOG] 2025-10-17T07:05:46.347Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:05:46.348Z - Medición guardada exitosamente - ID: 9
+[LOG] 2025-10-17T07:05:55.701Z - [2025-10-17T07:05:55.701Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:05:55.701Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:05:55.701Z - pasamso el query
+[LOG] 2025-10-17T07:05:55.703Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:05:55.703Z - [object Object]
+[LOG] 2025-10-17T07:05:55.703Z - [object Object]
+[LOG] 2025-10-17T07:06:06.743Z - [2025-10-17T07:06:06.743Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:06.743Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:06.743Z - pasamso el query
+[LOG] 2025-10-17T07:06:06.744Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:06.744Z - [object Object]
+[LOG] 2025-10-17T07:06:06.744Z - [object Object]
+[LOG] 2025-10-17T07:06:06.943Z - [2025-10-17T07:06:06.943Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:06.944Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:06.944Z - pasamso el query
+[LOG] 2025-10-17T07:06:06.944Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:06.944Z - [object Object]
+[LOG] 2025-10-17T07:06:06.945Z - [object Object]
+[LOG] 2025-10-17T07:06:07.320Z - [2025-10-17T07:06:07.320Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:07.321Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:07.321Z - pasamso el query
+[LOG] 2025-10-17T07:06:07.321Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:07.322Z - [object Object]
+[LOG] 2025-10-17T07:06:07.322Z - [object Object]
+[LOG] 2025-10-17T07:06:07.604Z - [2025-10-17T07:06:07.604Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:07.604Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:07.604Z - pasamso el query
+[LOG] 2025-10-17T07:06:07.605Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:07.605Z - [object Object]
+[LOG] 2025-10-17T07:06:07.605Z - [object Object]
+[LOG] 2025-10-17T07:06:07.800Z - [2025-10-17T07:06:07.800Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:07.800Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:07.800Z - pasamso el query
+[LOG] 2025-10-17T07:06:07.801Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:07.801Z - [object Object]
+[LOG] 2025-10-17T07:06:07.801Z - [object Object]
+[LOG] 2025-10-17T07:06:07.965Z - [2025-10-17T07:06:07.965Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:07.966Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:07.966Z - pasamso el query
+[LOG] 2025-10-17T07:06:07.966Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:07.967Z - [object Object]
+[LOG] 2025-10-17T07:06:07.967Z - [object Object]
+[LOG] 2025-10-17T07:06:08.146Z - [2025-10-17T07:06:08.146Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:08.147Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:08.147Z - pasamso el query
+[LOG] 2025-10-17T07:06:08.147Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:08.147Z - [object Object]
+[LOG] 2025-10-17T07:06:08.147Z - [object Object]
+[LOG] 2025-10-17T07:06:08.444Z - [2025-10-17T07:06:08.444Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:08.444Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:08.444Z - pasamso el query
+[LOG] 2025-10-17T07:06:08.445Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:08.445Z - [object Object]
+[LOG] 2025-10-17T07:06:08.445Z - [object Object]
+[LOG] 2025-10-17T07:06:09.407Z - [2025-10-17T07:06:09.407Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:09.407Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:09.407Z - pasamso el query
+[LOG] 2025-10-17T07:06:09.408Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:09.408Z - [object Object]
+[LOG] 2025-10-17T07:06:09.408Z - [object Object]
+[LOG] 2025-10-17T07:06:10.123Z - [2025-10-17T07:06:10.123Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:10.123Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:10.124Z - pasamso el query
+[LOG] 2025-10-17T07:06:10.124Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:10.124Z - [object Object]
+[LOG] 2025-10-17T07:06:10.124Z - [object Object]
+[LOG] 2025-10-17T07:06:10.528Z - [2025-10-17T07:06:10.528Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:10.528Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:10.528Z - pasamso el query
+[LOG] 2025-10-17T07:06:10.529Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:10.529Z - [object Object]
+[LOG] 2025-10-17T07:06:10.529Z - [object Object]
+[LOG] 2025-10-17T07:06:10.917Z - [2025-10-17T07:06:10.917Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:10.918Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:10.918Z - pasamso el query
+[LOG] 2025-10-17T07:06:10.919Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:10.919Z - [object Object]
+[LOG] 2025-10-17T07:06:10.919Z - [object Object]
+[LOG] 2025-10-17T07:06:11.326Z - [2025-10-17T07:06:11.326Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:11.327Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:11.327Z - pasamso el query
+[LOG] 2025-10-17T07:06:11.327Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:11.327Z - [object Object]
+[LOG] 2025-10-17T07:06:11.328Z - [object Object]
+[LOG] 2025-10-17T07:06:11.713Z - [2025-10-17T07:06:11.713Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:11.713Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:11.713Z - pasamso el query
+[LOG] 2025-10-17T07:06:11.714Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:11.714Z - [object Object]
+[LOG] 2025-10-17T07:06:11.714Z - [object Object]
+[LOG] 2025-10-17T07:06:12.127Z - [2025-10-17T07:06:12.127Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:12.127Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:12.127Z - pasamso el query
+[LOG] 2025-10-17T07:06:12.128Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:12.128Z - [object Object]
+[LOG] 2025-10-17T07:06:12.128Z - [object Object]
+[LOG] 2025-10-17T07:06:12.505Z - [2025-10-17T07:06:12.505Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:12.505Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:12.505Z - pasamso el query
+[LOG] 2025-10-17T07:06:12.506Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:12.506Z - [object Object]
+[LOG] 2025-10-17T07:06:12.506Z - [object Object]
+[LOG] 2025-10-17T07:06:13.028Z - [2025-10-17T07:06:13.028Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:13.028Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:13.028Z - pasamso el query
+[LOG] 2025-10-17T07:06:13.029Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:13.029Z - [object Object]
+[LOG] 2025-10-17T07:06:13.029Z - [object Object]
+[LOG] 2025-10-17T07:06:13.735Z - [2025-10-17T07:06:13.735Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:13.735Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:13.735Z - pasamso el query
+[LOG] 2025-10-17T07:06:13.736Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:13.736Z - [object Object]
+[LOG] 2025-10-17T07:06:13.736Z - [object Object]
+[LOG] 2025-10-17T07:06:14.094Z - [2025-10-17T07:06:14.094Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:14.094Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:14.094Z - pasamso el query
+[LOG] 2025-10-17T07:06:14.095Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:14.095Z - [object Object]
+[LOG] 2025-10-17T07:06:14.095Z - [object Object]
+[LOG] 2025-10-17T07:06:14.455Z - [2025-10-17T07:06:14.455Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:14.455Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:14.455Z - pasamso el query
+[LOG] 2025-10-17T07:06:14.456Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:14.456Z - [object Object]
+[LOG] 2025-10-17T07:06:14.456Z - [object Object]
+[LOG] 2025-10-17T07:06:14.814Z - [2025-10-17T07:06:14.814Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:14.814Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:14.814Z - pasamso el query
+[LOG] 2025-10-17T07:06:14.816Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:14.816Z - [object Object]
+[LOG] 2025-10-17T07:06:14.816Z - [object Object]
+[LOG] 2025-10-17T07:06:15.197Z - [2025-10-17T07:06:15.197Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:15.197Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:15.197Z - pasamso el query
+[LOG] 2025-10-17T07:06:15.197Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:15.198Z - [object Object]
+[LOG] 2025-10-17T07:06:15.198Z - [object Object]
+[LOG] 2025-10-17T07:06:17.416Z - [2025-10-17T07:06:17.416Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:17.416Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:17.416Z - pasamso el query
+[LOG] 2025-10-17T07:06:17.417Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:17.417Z - [object Object]
+[LOG] 2025-10-17T07:06:17.417Z - [object Object]
+[LOG] 2025-10-17T07:06:18.971Z - [2025-10-17T07:06:18.971Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:18.971Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:18.971Z - pasamso el query
+[LOG] 2025-10-17T07:06:18.972Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:18.972Z - [object Object]
+[LOG] 2025-10-17T07:06:18.972Z - [object Object]
+[LOG] 2025-10-17T07:06:30.748Z - [2025-10-17T07:06:30.748Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:30.749Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:30.749Z - pasamso el query
+[LOG] 2025-10-17T07:06:30.750Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:30.750Z - [object Object]
+[LOG] 2025-10-17T07:06:30.750Z - [object Object]
+[LOG] 2025-10-17T07:06:31.591Z - [2025-10-17T07:06:31.591Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:31.592Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:31.592Z - pasamso el query
+[LOG] 2025-10-17T07:06:31.592Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:31.592Z - [object Object]
+[LOG] 2025-10-17T07:06:31.592Z - [object Object]
+[LOG] 2025-10-17T07:06:32.290Z - [2025-10-17T07:06:32.290Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:32.290Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:32.290Z - pasamso el query
+[LOG] 2025-10-17T07:06:32.291Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:32.291Z - [object Object]
+[LOG] 2025-10-17T07:06:32.291Z - [object Object]
+[LOG] 2025-10-17T07:06:42.983Z - [2025-10-17T07:06:42.983Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:42.983Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:42.983Z - pasamso el query
+[LOG] 2025-10-17T07:06:42.985Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:42.985Z - [object Object]
+[LOG] 2025-10-17T07:06:42.985Z - [object Object]
+[LOG] 2025-10-17T07:06:43.560Z - [2025-10-17T07:06:43.560Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:43.560Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:43.560Z - pasamso el query
+[LOG] 2025-10-17T07:06:43.561Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:43.561Z - [object Object]
+[LOG] 2025-10-17T07:06:43.561Z - [object Object]
+[LOG] 2025-10-17T07:06:44.063Z - [2025-10-17T07:06:44.063Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.063Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.063Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.063Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.064Z - [object Object]
+[LOG] 2025-10-17T07:06:44.064Z - [object Object]
+[LOG] 2025-10-17T07:06:44.278Z - [2025-10-17T07:06:44.278Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.278Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.278Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.278Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.279Z - [object Object]
+[LOG] 2025-10-17T07:06:44.279Z - [object Object]
+[LOG] 2025-10-17T07:06:44.465Z - [2025-10-17T07:06:44.465Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.465Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.465Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.466Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.466Z - [object Object]
+[LOG] 2025-10-17T07:06:44.466Z - [object Object]
+[LOG] 2025-10-17T07:06:44.636Z - [2025-10-17T07:06:44.636Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.637Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.637Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.637Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.637Z - [object Object]
+[LOG] 2025-10-17T07:06:44.637Z - [object Object]
+[LOG] 2025-10-17T07:06:44.821Z - [2025-10-17T07:06:44.820Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.821Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.821Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.821Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.822Z - [object Object]
+[LOG] 2025-10-17T07:06:44.822Z - [object Object]
+[LOG] 2025-10-17T07:06:44.950Z - [2025-10-17T07:06:44.950Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:44.951Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:44.951Z - pasamso el query
+[LOG] 2025-10-17T07:06:44.952Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:44.952Z - [object Object]
+[LOG] 2025-10-17T07:06:44.952Z - [object Object]
+[LOG] 2025-10-17T07:06:45.158Z - [2025-10-17T07:06:45.158Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:45.158Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:45.158Z - pasamso el query
+[LOG] 2025-10-17T07:06:45.159Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:45.159Z - [object Object]
+[LOG] 2025-10-17T07:06:45.159Z - [object Object]
+[LOG] 2025-10-17T07:06:45.238Z - [2025-10-17T07:06:45.238Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:45.238Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:45.238Z - pasamso el query
+[LOG] 2025-10-17T07:06:45.239Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:45.239Z - [object Object]
+[LOG] 2025-10-17T07:06:45.239Z - [object Object]
+[LOG] 2025-10-17T07:06:45.374Z - [2025-10-17T07:06:45.374Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:45.375Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:45.375Z - pasamso el query
+[LOG] 2025-10-17T07:06:45.375Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:45.375Z - [object Object]
+[LOG] 2025-10-17T07:06:45.375Z - [object Object]
+[LOG] 2025-10-17T07:06:45.914Z - [2025-10-17T07:06:45.914Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:45.914Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:45.914Z - pasamso el query
+[LOG] 2025-10-17T07:06:45.915Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:45.915Z - [object Object]
+[LOG] 2025-10-17T07:06:45.915Z - [object Object]
+[LOG] 2025-10-17T07:06:46.583Z - [2025-10-17T07:06:46.583Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:46.583Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:46.583Z - pasamso el query
+[LOG] 2025-10-17T07:06:46.584Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:46.584Z - [object Object]
+[LOG] 2025-10-17T07:06:46.584Z - [object Object]
+[LOG] 2025-10-17T07:06:46.674Z - [2025-10-17T07:06:46.674Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:46.674Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:46.674Z - pasamso el query
+[LOG] 2025-10-17T07:06:46.674Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:46.675Z - [object Object]
+[LOG] 2025-10-17T07:06:46.675Z - [object Object]
+[LOG] 2025-10-17T07:06:46.799Z - [2025-10-17T07:06:46.799Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:46.799Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:46.799Z - pasamso el query
+[LOG] 2025-10-17T07:06:46.800Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:46.800Z - [object Object]
+[LOG] 2025-10-17T07:06:46.800Z - [object Object]
+[LOG] 2025-10-17T07:06:46.943Z - [2025-10-17T07:06:46.943Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:46.944Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:46.944Z - pasamso el query
+[LOG] 2025-10-17T07:06:46.944Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:46.945Z - [object Object]
+[LOG] 2025-10-17T07:06:46.945Z - [object Object]
+[LOG] 2025-10-17T07:06:47.106Z - [2025-10-17T07:06:47.106Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:47.106Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:47.106Z - pasamso el query
+[LOG] 2025-10-17T07:06:47.107Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:47.107Z - [object Object]
+[LOG] 2025-10-17T07:06:47.107Z - [object Object]
+[LOG] 2025-10-17T07:06:47.304Z - [2025-10-17T07:06:47.304Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:47.304Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:47.304Z - pasamso el query
+[LOG] 2025-10-17T07:06:47.304Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:47.305Z - [object Object]
+[LOG] 2025-10-17T07:06:47.305Z - [object Object]
+[LOG] 2025-10-17T07:06:51.053Z - [2025-10-17T07:06:51.053Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:51.054Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:51.054Z - pasamso el query
+[LOG] 2025-10-17T07:06:51.054Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:51.055Z - [object Object]
+[LOG] 2025-10-17T07:06:51.055Z - [object Object]
+[LOG] 2025-10-17T07:06:51.984Z - [2025-10-17T07:06:51.984Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:06:51.984Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:06:51.984Z - pasamso el query
+[LOG] 2025-10-17T07:06:51.985Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:06:51.985Z - [object Object]
+[LOG] 2025-10-17T07:06:51.985Z - [object Object]
+[LOG] 2025-10-17T07:07:48.988Z - [2025-10-17T07:07:48.988Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:48.988Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:48.988Z - pasamso el query
+[LOG] 2025-10-17T07:07:48.989Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:48.989Z - [object Object]
+[LOG] 2025-10-17T07:07:48.989Z - [object Object]
+[LOG] 2025-10-17T07:07:49.646Z - [2025-10-17T07:07:49.646Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:49.646Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:49.646Z - pasamso el query
+[LOG] 2025-10-17T07:07:49.647Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:49.647Z - [object Object]
+[LOG] 2025-10-17T07:07:49.647Z - [object Object]
+[LOG] 2025-10-17T07:07:49.935Z - [2025-10-17T07:07:49.935Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:49.935Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:49.935Z - pasamso el query
+[LOG] 2025-10-17T07:07:49.936Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:49.936Z - [object Object]
+[LOG] 2025-10-17T07:07:49.936Z - [object Object]
+[LOG] 2025-10-17T07:07:50.275Z - [2025-10-17T07:07:50.275Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:50.275Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:50.275Z - pasamso el query
+[LOG] 2025-10-17T07:07:50.276Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:50.276Z - [object Object]
+[LOG] 2025-10-17T07:07:50.276Z - [object Object]
+[LOG] 2025-10-17T07:07:51.111Z - [2025-10-17T07:07:51.111Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:51.111Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:51.111Z - pasamso el query
+[LOG] 2025-10-17T07:07:51.112Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:51.112Z - [object Object]
+[LOG] 2025-10-17T07:07:51.112Z - [object Object]
+[LOG] 2025-10-17T07:07:51.497Z - [2025-10-17T07:07:51.497Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:51.498Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:51.498Z - pasamso el query
+[LOG] 2025-10-17T07:07:51.498Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:51.499Z - [object Object]
+[LOG] 2025-10-17T07:07:51.499Z - [object Object]
+[LOG] 2025-10-17T07:07:51.736Z - [2025-10-17T07:07:51.736Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:51.736Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:51.736Z - pasamso el query
+[LOG] 2025-10-17T07:07:51.737Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:51.737Z - [object Object]
+[LOG] 2025-10-17T07:07:51.737Z - [object Object]
+[LOG] 2025-10-17T07:07:56.806Z - [2025-10-17T07:07:56.806Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:56.807Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:56.807Z - pasamso el query
+[LOG] 2025-10-17T07:07:56.807Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:56.807Z - [object Object]
+[LOG] 2025-10-17T07:07:56.808Z - [object Object]
+[LOG] 2025-10-17T07:07:57.207Z - [2025-10-17T07:07:57.207Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:57.208Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:57.208Z - pasamso el query
+[LOG] 2025-10-17T07:07:57.208Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:57.208Z - [object Object]
+[LOG] 2025-10-17T07:07:57.208Z - [object Object]
+[LOG] 2025-10-17T07:07:59.154Z - [2025-10-17T07:07:59.154Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:07:59.154Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:07:59.154Z - pasamso el query
+[LOG] 2025-10-17T07:07:59.155Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:07:59.155Z - [object Object]
+[LOG] 2025-10-17T07:07:59.155Z - [object Object]
+[LOG] 2025-10-17T07:08:12.608Z - [2025-10-17T07:08:12.608Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:08:12.608Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:08:12.608Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:08:12.610Z - Medición guardada exitosamente - ID: 10
+[LOG] 2025-10-17T07:08:16.218Z - [2025-10-17T07:08:16.218Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:08:16.219Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:08:16.219Z - pasamso el query
+[LOG] 2025-10-17T07:08:16.219Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:08:16.219Z - [object Object]
+[LOG] 2025-10-17T07:08:16.220Z - [object Object]
+[LOG] 2025-10-17T07:08:42.676Z - [2025-10-17T07:08:42.676Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:08:42.676Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:08:42.676Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:08:42.678Z - Medición guardada exitosamente - ID: 11
+[LOG] 2025-10-17T07:09:27.751Z - [2025-10-17T07:09:27.751Z] POST /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:09:27.751Z - Datos recibidos del Android: {"tipo":"gas","valor":133}
+[LOG] 2025-10-17T07:09:27.752Z - Iniciando guardado de medición: [object Object]
+[LOG] 2025-10-17T07:09:27.753Z - Medición guardada exitosamente - ID: 12
+[LOG] 2025-10-17T07:10:07.945Z - [2025-10-17T07:10:07.945Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T07:10:07.945Z - Consultando ultima medcion
+[LOG] 2025-10-17T07:10:07.945Z - pasamso el query
+[LOG] 2025-10-17T07:10:07.946Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T07:10:07.946Z - [object Object]
+[LOG] 2025-10-17T07:10:07.946Z - [object Object]
+[LOG] 2025-10-17T08:04:17.801Z - [2025-10-17T08:04:17.801Z] GET /PeticionarioREST.js - IP: 127.0.0.1
+[LOG] 2025-10-17T08:05:55.236Z - [2025-10-17T08:05:55.236Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T08:05:55.236Z - Consultando ultima medcion
+[LOG] 2025-10-17T08:05:55.236Z - pasamso el query
+[LOG] 2025-10-17T08:05:55.237Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T08:05:55.237Z - [object Object]
+[LOG] 2025-10-17T08:05:55.237Z - [object Object]
+[LOG] 2025-10-17T08:06:03.576Z - [2025-10-17T08:06:03.576Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T08:06:03.576Z - Consultando ultima medcion
+[LOG] 2025-10-17T08:06:03.576Z - pasamso el query
+[LOG] 2025-10-17T08:06:03.577Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T08:06:03.577Z - [object Object]
+[LOG] 2025-10-17T08:06:03.577Z - [object Object]
+[LOG] 2025-10-17T08:06:05.866Z - [2025-10-17T08:06:05.866Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T08:06:05.866Z - Consultando ultima medcion
+[LOG] 2025-10-17T08:06:05.866Z - pasamso el query
+[LOG] 2025-10-17T08:06:05.867Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T08:06:05.868Z - [object Object]
+[LOG] 2025-10-17T08:06:05.868Z - [object Object]
+[LOG] 2025-10-17T08:06:06.742Z - [2025-10-17T08:06:06.742Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T08:06:06.742Z - Consultando ultima medcion
+[LOG] 2025-10-17T08:06:06.742Z - pasamso el query
+[LOG] 2025-10-17T08:06:06.744Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T08:06:06.744Z - [object Object]
+[LOG] 2025-10-17T08:06:06.744Z - [object Object]
+[LOG] 2025-10-17T10:33:16.488Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T10:33:16.490Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T10:33:16.537Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T10:33:16.546Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T10:33:16.547Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T10:33:16.552Z - 
+ ============================================
+[LOG] 2025-10-17T10:33:16.552Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T10:33:16.552Z - ============================================
+[LOG] 2025-10-17T10:33:16.552Z -  Puerto: 3000
+[LOG] 2025-10-17T10:33:16.552Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T10:33:16.552Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T10:33:16.553Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T10:33:16.553Z -    POST /api/medicion
+[LOG] 2025-10-17T10:33:16.553Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T10:33:16.553Z -    GET  /api/medicion
+[LOG] 2025-10-17T10:33:16.553Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T10:33:16.553Z - ============================================
+[LOG] 2025-10-17T10:33:16.553Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T10:33:16.586Z - [2025-10-17T10:33:16.585Z] GET /favicon.ico - IP: 127.0.0.1
+[LOG] 2025-10-17T10:46:35.938Z - Verificando conexión a base de datos...
+[LOG] 2025-10-17T10:46:35.939Z -  Verificando conexión a base de datos...
+[LOG] 2025-10-17T10:46:36.016Z - ✅ Conexión a MySQL establecida
+[LOG] 2025-10-17T10:46:36.020Z -  Conexión a base de datos verificada exitosamente
+[LOG] 2025-10-17T10:46:36.020Z - Conexión a base de datos exitosa
+[LOG] 2025-10-17T10:46:36.023Z - 
+ ============================================
+[LOG] 2025-10-17T10:46:36.023Z -    Servidor IoT iniciado exitosamente
+[LOG] 2025-10-17T10:46:36.023Z - ============================================
+[LOG] 2025-10-17T10:46:36.023Z -  Puerto: 3000
+[LOG] 2025-10-17T10:46:36.023Z -  URL Local: http://localhost:3000
+[LOG] 2025-10-17T10:46:36.023Z -  Health Check: http://localhost:3000/api/health
+[LOG] 2025-10-17T10:46:36.023Z - 
+ Endpoints Disponibles:
+[LOG] 2025-10-17T10:46:36.023Z -    POST /api/medicion
+[LOG] 2025-10-17T10:46:36.023Z -         Body: {tipo: "temperatura|gas", valor: number}
+[LOG] 2025-10-17T10:46:36.023Z -    GET  /api/medicion
+[LOG] 2025-10-17T10:46:36.023Z -         Retorna la última medición registrada
+[LOG] 2025-10-17T10:46:36.023Z - ============================================
+[LOG] 2025-10-17T10:46:36.023Z -  Servidor listo para recibir peticiones...
+
+[LOG] 2025-10-17T10:46:36.042Z - [2025-10-17T10:46:36.042Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T10:46:36.043Z - Consultando ultima medcion
+[LOG] 2025-10-17T10:46:36.043Z - pasamso el query
+[LOG] 2025-10-17T10:46:36.045Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T10:46:36.046Z - [object Object]
+[LOG] 2025-10-17T10:46:36.046Z - [object Object]
+[LOG] 2025-10-17T10:46:57.780Z - [2025-10-17T10:46:57.780Z] GET /api/medicion - IP: 127.0.0.1
+[LOG] 2025-10-17T10:46:57.780Z - Consultando ultima medcion
+[LOG] 2025-10-17T10:46:57.780Z - pasamso el query
+[LOG] 2025-10-17T10:46:57.782Z - pasamso el ejecutar query, esta es la medicion [object Object]
+[LOG] 2025-10-17T10:46:57.782Z - [object Object]
+[LOG] 2025-10-17T10:46:57.783Z - [object Object]
+[LOG] 2025-10-17T10:48:54.666Z - [2025-10-17T10:48:54.666Z] GET /favicon.ico - IP: 127.0.0.1
