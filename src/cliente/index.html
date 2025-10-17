@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Especifica la codificación de caracteres UTF-8 para soportar tildes y caracteres especiales -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuración para diseño responsive en dispositivos móviles -->
+    <!-- width=device-width hace que el ancho sea igual al ancho del dispositivo -->
+    <!-- initial-scale=1.0 establece el nivel de zoom inicial al 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Biometría IoT - Mediciones en Tiempo Real</title>
+</head>
+<body>
+    <!-- Título principal de la sección de medición -->
+    <h2>Última Medición</h2>
+    
+    <!-- Contenedor principal que muestra la información de la medición actual -->
+    <!-- Este div se oculta cuando no hay datos disponibles -->
+    <div id="medicion-container">
+        
+        <!-- Fila que muestra el tipo de medición (Temperatura o Gas) -->
+        <div>
+            <!-- Etiqueta fija "Tipo:" -->
+            <span>Tipo:</span>
+            
+            <!-- Valor dinámico del tipo, se actualiza con JavaScript -->
+            <!-- Por defecto muestra "--" hasta que se carguen los datos -->
+            <span id="tipo-valor">--</span>
+        </div>
+        
+        <!-- Fila que muestra el valor de la medición con su unidad -->
+        <div>
+            <!-- Etiqueta fija "Valor:" -->
+            <span>Valor:</span>
+            
+            <!-- Valor dinámico de la medición, se actualiza con JavaScript -->
+            <!-- Por defecto muestra "--" hasta que se carguen los datos -->
+            <!-- El color de este texto cambia según el tipo (rojo=temperatura, azul=gas) -->
+            <span id="medicion-valor">--</span>
+        </div>
+    </div>
+    
+    <!-- Mensaje que se muestra cuando no hay mediciones disponibles o hay error -->
+    <!-- Inicialmente está oculto (display: none) -->
+    <!-- JavaScript lo muestra/oculta según corresponda -->
+    <div id="sin-datos" style="display: none;">
+        <p>No hay mediciones disponibles</p>
+    </div>
+    
+    <!-- Botón para solicitar la última medición del servidor -->
+    <!-- Al hacer click, ejecuta la función actualizarMedicion() -->
+    <!-- Se deshabilita temporalmente mientras carga los datos -->
+    <button id="btn-actualizar">Obtener dato más reciente</button>
+    
+    <!-- Scripts de JavaScript -->
+    
+    <!-- Primer script: carga la clase Logica que maneja la comunicación con el servidor -->
+    <script src="Logica.js"></script>
+    
+    <!-- Segundo script: carga el código principal que maneja la interfaz y eventos -->
+    <!-- Debe cargarse DESPUÉS de Logica.js porque depende de él -->
+    <script src="app.js"></script>
+</body>
+</html>
