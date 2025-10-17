@@ -14,22 +14,6 @@ public class Logica {
 
     public void guardarMedcion(){
         PeticionarioREST elPeticionario = new PeticionarioREST();
-        String cuerpo = constructorDeCuerpo()   ;
-
-        elPeticionario.hacerPeticionREST("POST",  "http://amburet.upv.edu.es/api/mediciones",
-                cuerpo, new PeticionarioREST.RespuestaREST () {
-                    @Override
-                    public void callback(int codigo, String cuerpo) {
-                        Log.d( "pruebasPeticionario", "TENGO RESPUESTA:\ncodigo = " + codigo + "\ncuerpo: \n" + cuerpo);
-
-                    }
-                }
-        );
-    }
-
-    // Creo una funcion para crear el cuerpo de la peticion POST de correcta
-    // para asegurarme que se envie un JSON
-    private String constructorDeCuerpo(){
 
         String tipoStr = "";
 
@@ -41,8 +25,16 @@ public class Logica {
 
         Log.d("PROBLEMA DE LA TEMPERATURA", "EL tipoStr = " + tipoStr);
 
-        return "{\"tipo\": \"" + tipoStr + "\", \"valor\": " + this.valorMedida + "}";
-    }
+        String cuerpo =  "{\"tipo\": \"" + tipoStr + "\", \"valor\": " + this.valorMedida + "}";
 
-    //
+        elPeticionario.hacerPeticionREST("POST",  "https://amburet.upv.edu.es/api/medicion",
+                cuerpo, new PeticionarioREST.RespuestaREST () {
+                    @Override
+                    public void callback(int codigo, String cuerpo) {
+                        Log.d( "pruebasPeticionario", "TENGO RESPUESTA:\ncodigo = " + codigo + "\ncuerpo: \n" + cuerpo);
+
+                    }
+                }
+        );
+    }
 }
