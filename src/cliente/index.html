@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometría IoT - Mediciones en Tiempo Real</title>
+</head>
+<body>
+
+    <!-- Título de la sección de medición -->
+    <h2>Última Medición</h2>
+
+    <!-- Contenedor de la medición actual -->
+    <div id="medicion-container">
+        <!-- Tipo de medición -->
+        <div>
+            <span>Tipo:</span>
+            <span id="tipo-valor">--</span>
+        </div>
+
+        <!-- Valor de la medición -->
+        <div>
+            <span>Valor:</span>
+            <span id="medicion-valor">--</span>
+        </div>
+
+    </div>
+
+    <!-- Mensaje cuando no hay datos disponibles -->
+    <div id="sin-datos" style="display: none;">
+        <p>No hay mediciones disponibles</p>
+    </div>
+
+    <!-- Botón para actualización -->
+    <button id="btn-actualizar">Obtener dato más reciente</button>
+
+    <!-- Scripts -->
+    <script src="Logica.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
