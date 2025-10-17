@@ -1,5 +1,6 @@
 package com.example.biometria_adenor;
 
+
 import android.os.AsyncTask;
 import android.util.Log;
 
@@ -20,7 +21,7 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
-    private String elMetodo;
+    private  String elMetodo;
     private String urlDestino;
     private String elCuerpo = null;
     private RespuestaREST laRespuesta;
@@ -76,26 +77,11 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
                 DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
                 Log.d("clienterestandroid","doInBackground(): lo que se escribe: " + this.elCuerpo );
 
-                try {
-                    // Convertir el String a JSONObject
-                    JSONObject json = new JSONObject(this.elCuerpo);
-
-                    // Acceder a los valores
-                    /*String tipo = json.getString("tipo");
-                    int valor = json.getInt("valor");
-
-                    Log.d("clienterestandroid","Tipo: " + tipo);
-                    Log.d("clienterestandroid","Valor: " + valor);*/
-
-                    String elCuerpoFormateado = json.toString();
-                    byte[] postData = elCuerpoFormateado.getBytes(StandardCharsets.UTF_8);
-                    dos.write(postData);
-                    dos.flush();
-                    dos.close();
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                String elCuerpoFormateado = this.elCuerpo;
+                byte[] postData = elCuerpoFormateado.getBytes(StandardCharsets.UTF_8);
+                dos.write(postData);
+                dos.flush();
+                dos.close();
 
             }
 
@@ -158,5 +144,3 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
     }
 
 } // class
-
-
